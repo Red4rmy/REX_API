@@ -1,0 +1,27 @@
+Types of Drives:
+Tank(or "Arcade")
+-4 motor
+-6 motor
+Holonomic
+H drive
+U drive
+Mecanum
+X drive  
+
+Features for each drive:
+General power set movement
+-forward(power)
+-backward(power)
+-turnLeft(power)
+-turnRight(power)
+-strafeLeft(power)
+-strafeRight(power)
+Basic joystick drive
+Digital drive??? 
+Autonomous/driver assist functions
+-forwardIn(inches)
+-backwardIn(inches)
+-turnLeftDeg(degrees)
+-turnRightDeg(degrees)
+-strafeLeft(inches)
+-StrafeRight(inches)
