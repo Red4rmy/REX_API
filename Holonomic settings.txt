@@ -1,0 +1,26 @@
+Holonomic settings:
+
+right
+left
+front
+back
+
+gyroscope
+
+
+rightIME
+leftIME
+frontIME
+backIME
+
+rightIn
+leftIn
+frontIn
+backIn
+
+rightOut
+leftOut
+frontOut
+backOut
+
+useIME

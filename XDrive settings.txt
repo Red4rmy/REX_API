@@ -1,0 +1,27 @@
+XDrive settings:
+
+rightFront
+leftFront
+rightBack
+leftBack
+
+gyroscope
+
+
+rightFrontIME
+leftFrontIME
+rightBackIME
+leftBackIME
+
+rightFrontIn
+leftFrontIn
+rightBackIn
+leftBackIn
+
+rightFrontOut
+leftFrontOut
+rightBackOut
+leftBackOut
+
+useIME 
+
