@@ -118,3 +118,28 @@ void operatorControl();
 #endif
 
 #endif
+
+//Types of drives and their integer "values"
+
+#define NO_DRIVE_TYPE  	0
+#define TANK_4			1
+#define TANK_6			2
+#define HOLONOMIC		3
+#define HU_DRIVE		4
+#define MECANUM			5
+#define X_DRIVE 		6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
