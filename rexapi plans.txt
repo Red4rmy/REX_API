@@ -16,6 +16,7 @@ General power set movement
 -turnRight(power)
 -strafeLeft(power)
 -strafeRight(power)
+-stop()
 Basic joystick drive
 Digital drive??? 
 Autonomous/driver assist functions
