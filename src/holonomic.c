@@ -48,3 +48,14 @@ void holoStop(int power)
 	motorSet(LEFT, 0);
 	motorSet(BACK, 0);
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+void holoOperator(float factor)
+{
+	motorSet(RIGHT, factor*(-joy1_channel3+joy1_channel1));
+	motorSet(FRONT, factor*(joy1_channel4+joy1_channel1));
+	motorSet(LEFT, factor*(joy1_channel3+joy1_channel1));
+	motorSet(BACK, factor*(-joy1_channel4+joy1_channel1));
+}
+

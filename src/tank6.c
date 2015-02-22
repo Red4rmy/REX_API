@@ -49,3 +49,15 @@ void tank6Stop()
 	motorSet(RIGHT_BACK, 0);
 	motorSet(LEFT_BACK, 0);
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+void tank6Operator(float factor)
+{
+	motorSet(RIGHT_FRONT,-factor*joy1_channel2);
+	motorSet(LEFT_FRONT,factor*joy1_channel3);
+	motorSet(RIGHT_BACK,-factor*joy1_channel2);
+	motorSet(LEFT_BACK,factor*joy1_channel3);
+	motorSet(RIGHT_MID,-factor*joy1_channel2);
+	motorSet(LEFT_MID,factor*joy1_channel3);
+}

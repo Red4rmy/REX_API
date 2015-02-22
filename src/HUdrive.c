@@ -48,4 +48,16 @@ void HUStop()
 	motorSet(LEFT_FRONT, 0);
 	motorSet(RIGHT_BACK, 0);
 	motorSet(LEFT_BACK, 0);
+	motorSet(STRAFE, 0);
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+void HUOperator(float factor)
+{
+	motorSet(RIGHT_FRONT,factor*(-joy1_channel3+joy1_channel1));
+	motorSet(LEFT_FRONT,factor*(joy1_channel3+joy1_channel1));
+	motorSet(RIGHT_BACK,factor*(-joy1_channel3+joy1_channel1));
+	motorSet(LEFT_BACK,factor*(joy1_channel3+joy1_channel1));
+	motorSet(STRAFE, factor*(-joy1_channel4+joy1_channel1));
 }
