@@ -45,6 +45,7 @@
 
 #include <API.h>
 #include"rexapi.h"
+#include"settings.h"
 
 // Allow usage of this file in C++ programs
 #ifdef __cplusplus
@@ -121,47 +122,5 @@ void operatorControl();
 #endif
 
 
-//Types of drives and their integer "values"
 
-#define NO_DRIVE_TYPE  	0
-#define TANK_4			1
-#define TANK_6			2
-#define HOLONOMIC		3
-#define HU_DRIVE		4
-#define MECANUM			5
-#define X_DRIVE 		6
-
-
-//Joystick value variables
-
-extern int joy1_channel1;
-extern int joy1_channel2;
-extern int joy1_channel3;
-extern int joy1_channel4;
-extern int joy2_channel1;
-extern int joy2_channel2;
-extern int joy2_channel3;
-extern int joy2_channel4;
-extern int joy1_channel5;
-extern int joy1_channel6;
-extern int joy1_channel7;
-extern int joy1_channel8;
-extern int joy2_channel5;
-extern int joy2_channel6;
-extern int joy2_channel7;
-extern int joy2_channel8;
-
-//IME values
-
-extern int RFcount;
-extern int LFcount;
-extern int RBcount;
-extern int LBcount;
-extern int RFvel;
-extern int LFvel;
-extern int RBvel;
-extern int LBvel;
-//tasks which get global variables.
-
-extern void joystickGet();
 

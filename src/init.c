@@ -60,5 +60,7 @@ void initializeIO() {
  */
 
 void initialize() {
+	if(IME_ACTIVE)
+		imeInitializeAll();
 
 }
