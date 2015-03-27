@@ -40,9 +40,9 @@
 #define API_H_
 
 // System includes
-#include <stdlib.h>
-#include <stdbool.h>
-#include <stdarg.h>
+#include "stdlib.h"
+#include "stdbool.h"
+#include "stdarg.h"
 
 // Begin C++ extern to C
 #ifdef __cplusplus

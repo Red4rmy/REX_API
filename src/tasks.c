@@ -72,3 +72,92 @@ void IMEGet()
 	imeGetVelocity(LEFT_BACK_IME, &tLB);LBvel = tLB / 24.5;
 	imeGetVelocity(LEFT_FRONT_IME, &tLF);LFvel = tLF / 24.5;
 }
+//THIS HAS TO BE DONE IN A SMARTER WAY, possibly each switch its own function.
+void sensorSetup()
+{
+	switch(DIG1)
+	{
+
+	}
+	switch(DIG2)
+	{
+
+	}
+	switch(DIG3)
+	{
+
+	}
+	switch(DIG4)
+	{
+
+	}
+	switch(DIG5)
+	{
+
+	}
+	switch(DIG6)
+	{
+
+	}
+	switch(DIG7)
+	{
+
+	}
+	switch(DIG8)
+	{
+
+	}
+	switch(DIG9)
+	{
+
+	}
+	switch(DIG10)
+	{
+
+	}
+	switch(DIG11)
+	{
+
+	}
+	switch(DIG12)
+	{
+
+	}
+
+	switch(ANALOG1)
+	{
+
+	}
+	switch(ANALOG2)
+	{
+
+	}
+	switch(ANALOG2)
+	{
+
+	}
+	switch(ANALOG3)
+	{
+
+	}
+	switch(ANALOG4)
+	{
+
+	}
+	switch(ANALOG5)
+	{
+
+	}
+	switch(ANALOG6)
+	{
+
+	}
+	switch(ANALOG7)
+	{
+
+	}
+	switch(ANALOG8)
+	{
+
+	}
+}

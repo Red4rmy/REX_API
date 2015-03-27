@@ -164,3 +164,25 @@ extern int LBvel;
 //tasks which get global variables.
 
 extern void joystickGet();
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+//Sensor types
+
+#define NO_SENSOR		0
+#define POT				1
+#define BUMPER			2
+#define LIMIT			3
+#define GYRO			4
+#define ULTRASONIC_IN	5
+#define ULTRASONIC_OUT	6//NOTE: THIS MUST BE IN THE NEXT PORT FROM ULTRASONIC_IN
+#define ACCELX			7
+#define ACCELY			8
+#define ACCELZ			9
+#define LIGHT			10
+#define LINE			11
+#define LED				12
+#define ENCODER_IN		13
+#define ENCODER_OUT		14//NOTE: THIS MUST BE IN THE NEXT PORT FROM ENCODER_IN
+
+
