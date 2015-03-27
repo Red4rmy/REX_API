@@ -241,4 +241,34 @@
 /*
  *
  */
-#define GYROSCOPE	0
+//#define GYROSCOPE	0
+///////////////////////////////////////////////////////////////////////////////////////////////
+/*
+ * no sensor = EMPTY
+ * gyroscope = GYROSCOPE
+ * encoder   = ENCODER
+ * all other = OTHER
+ */
+//Port type and number ---- type of sensor
+#define ANA_1				EMPTY
+#define ANA_2				EMPTY
+#define ANA_3				EMPTY
+#define ANA_4				EMPTY
+#define ANA_5				EMPTY
+#define ANA_6				EMPTY
+#define ANA_7				EMPTY
+#define ANA_8				EMPTY
+
+#define DIG_1				EMPTY
+#define DIG_2				EMPTY
+#define DIG_3				EMPTY
+#define DIG_4				EMPTY
+#define DIG_5				EMPTY
+#define DIG_6				EMPTY
+#define DIG_7				EMPTY
+#define DIG_8				EMPTY
+#define DIG_9				EMPTY
+#define DIG_10				EMPTY
+#define DIG_11				EMPTY
+#define DIG_12				EMPTY
+

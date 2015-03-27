@@ -119,6 +119,14 @@ void XOperator(float factor);
 
 void mecanumOperator(float factor);
 ///////////////////////////////////////////////////////////////////////////////////////////////
+// Types of sensors and their integer "values"
+#define EMPTY	  		0
+#define GYROSCOPE       1
+#define ENCODER			2
+#define OTHER			3
+
+
+
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
 //Types of drives and their integer "values"
@@ -164,3 +172,5 @@ extern int LBvel;
 //tasks which get global variables.
 
 extern void joystickGet();
+
+
