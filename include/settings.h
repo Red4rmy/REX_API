@@ -242,3 +242,28 @@
  *
  */
 #define GYROSCOPE	0
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+#define DIG1		NO_SENSOR
+#define DIG2		NO_SENSOR
+#define DIG3		NO_SENSOR
+#define DIG4		NO_SENSOR
+#define DIG5		NO_SENSOR
+#define DIG6		NO_SENSOR
+#define DIG7		NO_SENSOR
+#define DIG8		NO_SENSOR
+#define DIG9		NO_SENSOR
+#define DIG10		NO_SENSOR
+#define DIG11		NO_SENSOR
+#define DIG12		NO_SENSOR
+
+#define ANALOG1		NO_SENSOR
+#define ANALOG2		NO_SENSOR
+#define ANALOG3		NO_SENSOR
+#define ANALOG4		NO_SENSOR
+#define ANALOG5		NO_SENSOR
+#define ANALOG6		NO_SENSOR
+#define ANALOG7		NO_SENSOR
+#define ANALOG8		NO_SENSOR
